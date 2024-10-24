@@ -24,7 +24,8 @@ JavaScript: Logic for dynamic quiz generation and scoring
 
 How to Run Locally 🏃‍♂️
 1. Clone this repository:
-[Screenshot 2024-10-24 132718](https://github.com/user-attachments/assets/c5961b19-80c9-462d-b770-e17392c547eb)
+https://github.com/user-attachments/assets/c5961b19-80c9-462d-b770-e17392c547eb
+
 
 
 
