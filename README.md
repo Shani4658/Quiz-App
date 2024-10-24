@@ -23,8 +23,7 @@ Backend: Firebase for Authentication
 JavaScript: Logic for dynamic quiz generation and scoring
 
 How to Run Locally 🏃‍♂️
-1. Clone this repository:
-https://github.com/user-attachments/assets/c5961b19-80c9-462d-b770-e17392c547eb
+
 
 
 
