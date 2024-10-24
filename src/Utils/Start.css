@@ -1,0 +1,57 @@
+/* Full-page layout */
+.start-page {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f0f8ff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* Rocket animation */
+  .rocket {
+    position: absolute;
+    top: 100vh;
+    left: -100px;
+    animation: fly 10s linear infinite;
+  }
+  
+  @keyframes fly {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(100vw, -100vh);
+    }
+  }
+  
+  .rocket-img {
+    width: 150px;
+    height: auto;
+  }
+  
+  /* Start button and content */
+  .content {
+    
+    z-index: 1;
+  }
+  
+  .start-button {
+    width: 200px;
+    padding: 15px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .start-button:hover {
+    transform: scale(1.1);
+  }
+  
